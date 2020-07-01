@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer: Sean Earle <sean.r.earle@gmail.com>
-" Last Change: 2020/06/27 Sat 10:49
-"     version: 2.0
+" Last Change: 2020/07/01
+"     version: 2.1
 " This color scheme uses a light background.
 
 set background=light
@@ -72,6 +72,10 @@ hi VimwikiHeader4  gui=NONE      guifg=#0050a0 guibg=#c0e8ff cterm=NONE      cte
 hi VimwikiHeader5  gui=NONE      guifg=#0050a0 guibg=#c0e8ff cterm=NONE      ctermfg=25  ctermbg=117
 hi VimwikiHeader6  gui=NONE      guifg=#0050a0 guibg=#c0e8ff cterm=NONE      ctermfg=25  ctermbg=117
 hi VimwikiListTodo gui=NONE      guifg=#0050a0 guibg=NONE    cterm=NONE      ctermfg=25  ctermbg=NONE
+"
+" IndentGuide
+hi IndentGuidesOdd  gui=NONE      guifg=NONE guibg=#E5E5E5 cterm=NONE         ctermfg=254 ctermbg=254
+hi IndentGuidesEven gui=NONE      guifg=NONE guibg=#CECECE cterm=NONE         ctermfg=252 ctermbg=252
 
 " Syntax group
 hi Comment         gui=NONE      guifg=#dd0000 guibg=NONE    cterm=NONE      ctermfg=160  ctermbg=NONE
